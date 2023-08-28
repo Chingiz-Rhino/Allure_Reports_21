@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
-public class LambdaSteps extends TestBase{
+public class LambdaSteps {
 
     private static final String REPOSITORY = "Chingiz-Rhino/Allure_Reports_21";
     private static final String ISSUE = "First Issues";
