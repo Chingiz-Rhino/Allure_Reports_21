@@ -14,14 +14,8 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
-public class LambdaSteps {
+public class LambdaSteps extends TestBase{
 
-    @BeforeAll
-    static void beforeall() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ching\\OneDrive\\Рабочий стол\\Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-        System.setProperty("selenide.browser", "Chrome");
-
-    }
     private static final String REPOSITORY = "Chingiz-Rhino/Allure_Reports_21";
     private static final String ISSUE = "First Issues";
     @DisplayName("Проверка присутствия issue в репозитории")

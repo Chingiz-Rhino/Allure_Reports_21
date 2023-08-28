@@ -13,13 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static org.openqa.selenium.By.linkText;
 
 
-public class SelenideWithListener {
-    @BeforeAll
-    static void beforeall() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ching\\OneDrive\\Рабочий стол\\Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-        System.setProperty("selenide.browser", "Chrome");
-
-    }
+public class SelenideWithListener extends TestBase{
 
     @DisplayName("Проверка присутствия issue в репозитории")
     @Test
