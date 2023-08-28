@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static org.openqa.selenium.By.linkText;
 
 
-public class SelenideWithListener extends TestBase{
+public class SelenideWithListener {
 
     @DisplayName("Проверка присутствия issue в репозитории")
     @Test
